@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cospixare Technologies | Contact Us</title>
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/icons/android-chrome-512x512.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="manifest" href="assets/icons/site.webmanifest">
+    <link rel="stylesheet" href="contact-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="script.js"></script>
+<!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NMLM2H9PXZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-NMLM2H9PXZ', {
+            cookie_flags: 'SameSite=Lax; Secure',
+            cookie_domain: 'cospixaretechnologies.in', // Use your actual domain
+            cookie_expires: 63072000
+        });
+    </script>
+</head>
+<body>
+<!-- Preloader -->
+<div id="preloader">
+</div>
+ <!-- Cursor Follower -->
+<div class="cursor"></div>
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="assets/images/logo.svg" alt="Cospixare Logo">
+                <span class="brand-text">Cospixare <span class="highlight">Technologies</span></span>
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="../index.html" class="nav-item"><i class="fas fa-home"></i>Home</a></li>
+            <li class="dropdown">
+                <a href="../services.html" class="drop-btn"><i class="fas fa-cogs"></i>Services <i class="fas fa-chevron-down"></i></a>
+                <div class="dropdown-content">
+                    <div class="mega-menu">
+                        <div class="menu-column">
+                            <h3>Digital Solutions</h3>
+                            <a href="../digital-marketing-service.html"><i class="fas fa-bullhorn"></i>Digital Marketing & SEO</a>
+                            <a href="../software-service.html"><i class="fas fa-code"></i>Custom Software Development</a>
+                        </div>
+                        <div class="menu-column">
+                            <h3>Design Services</h3>
+                            <a href="../logo-service.html"><i class="fas fa-paint-brush"></i>Logo Design</a>
+                            <a href="../ux-ui-service.html"><i class="fas fa-pencil-ruler"></i>UX/UI Design</a>
+                        </div>
+                        <div class="menu-column">
+                            <h3>Web Solutions</h3>
+                            <a href="../web-dev-service.html"><i class="fas fa-globe"></i>Website Development</a>
+                            <a href="../cloud-service.html"><i class="fas fa-handshake"></i>Cloud Solutions</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li><a href="../careers.html" class="nav-item"><i class="fas fa-briefcase"></i>Careers</a></li>
+            <li><a href="../about.html" class="nav-item"><i class="fas fa-info-circle"></i>About</a></li>
+            <li><a href="../contact.html" class="nav-item btn-contact"><i class="fas fa-envelope"></i>Contact</a></li>
+        </ul>
+        <div class="search-box">
+            <input type="text" id="search-input" name="search" placeholder="Search...">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation menu" onclick="this.classList.toggle('active')">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+</header>
+<main>
+<!-- Contact Us Hero Section -->
+    <section id="contact-hero">
+        <div class="overlay"></div>
+        <div class="contact-content">
+            <h1 class="contact-title">Let's Connect & Build Something Amazing</h1>
+            <p class="contact-description" style="color: rgb(255, 238, 0);">
+                Whether you have a project in mind or just want to say hello, our team at 
+                <span>Cospixare Technologies</span> is here to help. Let's create the future together.
+            </p>
+            <a href="#contact-form" class="contact-button">Get in Touch</a>
+        </div>
+    </section>
+<!-- Contact Form Section -->
+    <section id="contact-section" class="contact-section-wrapper">
+        <h3 class="contact-subtitle">Got a Question?</h3>
+        <h1 class="contact-title">We are Here to Answer It!</h1>
+        <p class="contact-description">
+            Please send us information about your project. One of our project managers will evaluate your requirements
+            and provide a formal proposal. Your details will help us assess your project accurately.
+        </p>
+
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <form action="https://api.web3forms.com/submit" method="post" id="contact-form">
+                    <input type="hidden" name="access_key" value="b4be0a98-09bf-444a-8f5a-1f25ef9d13d2">
+                    <input type="hidden" name="redirect" value="https://cospixaretechnologies.in/thank-you.html">
+                    <input type="hidden" name="subject" value="New Service Request from Cospixare Technologies">
+                    
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-input" placeholder="Name*" required autocomplete="name">
+                        <input type="tel" name="phone" class="form-input" placeholder="Phone*" required autocomplete="tel">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-input" placeholder="Email*" required autocomplete="email">
+                        <input type="text" name="company" class="form-input" placeholder="Company Name" autocomplete="organization">
+                    </div>
+
+                    <div class="form-group">
+                        <select name="service" class="form-select" required>
+                            <option value="">Select Services</option>
+                            <option value="Digital Marketing">Digital Marketing & SEO</option>
+                            <option value="Software Development">Custom Software Development</option>
+                            <option value="Logo Design">Logo Design</option>
+                            <option value="UX/UI Design">UX/UI Design</option>
+                            <option value="Web Development">Website Development</option>
+                            <option value="Cloud Solutions">Cloud Solutions</option>
+                        </select>
+                    </div>
+                    <textarea name="message" class="form-textarea" placeholder="Let us know what you need" required></textarea>
+
+                    <div class="checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="updates">
+                            I would like to be updated on the latest products, events, and thought leadership.
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="terms" required>
+                            I have read and accepted the <a href="../terms-conditions.html">Terms & Conditions</a> & <a href="../privacy-policy.html">Privacy Policy</a>.
+                        </label>
+                    </div>
+
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <div class="info-box">
+                    <h3>📅 Book a Demo</h3>
+                    <p>Schedule a meeting with our engagement specialist</p>
+                </div>
+
+                <div class="info-box">
+                    <h3>📩 Send Your CV</h3>
+                    <p>Join our team at <a href="../careers.html">Careers</a></p>
+                </div>
+
+                <div class="info-box">
+                    <h3>📧 Reach Us via Email</h3>
+                    <p><a href="mailto:info@cospixaretechnologies.in">info@cospixaretechnologies.in</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<!-- Footer Section -->
+<footer class="footer">
+<div class="container">
+    <!-- About Company -->
+    <div class="footer-section about">
+        <h2>About Company</h2>
+        <p>We deliver innovative, scalable, and reliable technology solutions that drive your business forward.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/share/1EA9ZFhNFK" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/company/cospixare-technologies" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/cospixare_technologies?igsh=MXJqdjUxZmc1MHBlaA==" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/Cospixare_Tech?t=sFe4y0KUoVhGPxEoxP2RcA&s=09" aria-label="X-Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.threads.net/@cospixare_technologies" aria-label="Threads"><i class="fa-brands fa-threads"></i></a>
+        </div>
+    </div>
+    <!-- Quick Links -->
+    <div class="footer-section quick-links">
+        <h2>Quick Links</h2>
+        <ul>
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="../terms-conditions.html">Terms & Conditions</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <!-- Newsletter -->
+    <div class="footer-section newsletter">
+        <h2>Newsletter</h2>
+        <p>Subscribe to our newsletter to get the latest updates and offers.</p>
+        <div class="subscribe-box">
+            <form action="https://api.web3forms.com/submit" method="post">
+                <input type="hidden" name="access_key" value="21ef4e09-e220-4a65-915d-cb8ebcb581bb">
+                <input type="hidden" name="redirect" value="https://cospixaretechnologies.in/thank-you.html">
+                <input type="hidden" name="subject" value="New Email submission from Cospixare Technologies">
+                <input type="email" name="email" placeholder="Enter your email" autocomplete="email" required>
+                <button type="submit" class="cta-button">Subscribe</button>
+            </form>            
+        </div>
+        <p id="msg"></p>
+    </div>
+</div>
+<!-- Copyright -->
+<div class="footer-bottom">
+    <p>© 2025 Cospixare Technologies. All Rights Reserved.</p>
+    <ul>
+        <li><a href="../terms-conditions.html">Terms & Conditions</a></li>
+        <li><a href="../careers.html">Careers</a></li>
+        <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+    </ul>
+</div>
+</footer>
+</body>
+</html>
